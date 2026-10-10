@@ -1,0 +1,10 @@
+# Exact versions this release was tested against (pip install -r requirements.txt -c constraints-tested.txt)
+joblib==1.5.3
+numpy==2.4.4
+pandas==3.0.2
+pydeck==0.9.3
+pytest==9.1.1
+requests==2.33.1
+scikit-learn==1.8.0
+SQLAlchemy==2.1.4
+streamlit==1.65.0

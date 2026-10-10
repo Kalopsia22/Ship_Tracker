@@ -1,0 +1,22 @@
+[project]
+name = "maritime-intel"
+version = "2.0.0"
+description = "Explainable AI/ML dashboard over AIS-style vessel data"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 140
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B"]
+ignore = ["E402", "E501", "B008"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["E701", "E702"]
